@@ -6,7 +6,7 @@
     "index.js"
   ],
   "scripts": {
-    "postinstall": "npm i -g generator-react-native-ignite",
+    "postinstall": "sudo npm i -g generator-react-native-ignite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "babel -d ./ src/",
     "newclear": "npm cache clean && rm -rf ./node_modules && npm install",
